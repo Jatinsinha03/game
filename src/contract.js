@@ -4,7 +4,7 @@ import RouletteGameABI from './RouletteGameABI.json'; // The ABI of the Roulette
 // Initialize web3 instance and contract
 const web3 = new Web3(window.ethereum);
 
-const contractAddress = '0x5EE0137f78E6bD0B2a859a733c454a1FBa6CFFDa'; // Replace with your contract address
+const contractAddress = '0x3a11fb3953b8E65895b876dCC36211144940fDfe'; // Replace with your contract address
 const contract = new web3.eth.Contract(RouletteGameABI, contractAddress);
 
 export const getAccounts = async () => {
